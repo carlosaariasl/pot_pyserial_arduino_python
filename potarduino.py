@@ -2,7 +2,7 @@ import serial,time
 
 arduino=serial.Serial("COM5",9600)
 time.sleep(2)
-
+#comentario para commit 1
 try:
 	dato=arduino.readline()
 	while True:
